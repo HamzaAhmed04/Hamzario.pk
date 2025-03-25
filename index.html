@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hamza Ahmed-Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="https://github.com/HamzaAhmed04/Portfilio/raw/main/Logo.png" type="icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="https://i.ibb.co/Kjjmwd4/my-avatar.png" alt="Hamza Ahmed" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Hamza Ahmed">Hamza Ahmed</h1>
+
+          <p class="title">Front End Web Developer
+          <p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">mrhamzahmedshaikh@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+923153437122" class="contact-link">+92 (315) 343-7122</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2004-08-22">Aug 22, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Karachi, Pakistan </address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://m.facebook.com/hamzaahmed.shaaikh" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.snapchat.com/add/mr.hamzaahmed?share_id=pt5vgWXguPQ&locale=en-US" class="social-link">
+              <ion-icon name="logo-snapchat"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/itshamzaahmed/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.upwork.com/freelancers/~0186f9f61656ec0de6" class="social-link">Upwork</a>
+          </li>
+
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a front-end web developer with over 4
+            years of experience creating visually stunning
+            and responsive websites and web
+            applications using frameworks like React and
+            Bootstrap. My passion for staying up-to-date
+            with the latest trends and technologies in my
+            field means I can deliver high-quality work
+            that meets my clients' unique needs. With a
+            portfolio that includes successful projects
+            such as website designs, landing pages, and
+            web applications, I'm confident that I can
+            bring your ideas to life. Let's work together to
+            create something amazing - contact me to
+            discuss your project needs today.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="services">
+
+          <div class="services-grid">
+
+            <div class="service-item">
+
+              <div class="service-icon-box">
+                <img src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/icon-design.svg"
+                  alt="Custom Website Design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h3 class="service-item-title">Custom Website Design</h3>
+
+                <p class="service-item-text">
+                  Your website is often the first impression customers have of your brand. Let us help you make it a
+                  great one with custom website design tailored to your brand's unique personality and business goals.
+                  Together, we'll create a website that stands out from the crowd and effectively communicates your
+                  message to your target audience.
+                </p>
+              </div>
+
+            </div>
+
+            <div class="service-item">
+
+              <div class="service-icon-box">
+                <img src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/icon-dev.svg"
+                  alt="Front-End Web Development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h3 class="service-item-title">Front-End Web Development</h3>
+
+                <p class="service-item-text">
+                  A great website doesn't just look good - it needs to work seamlessly across devices and provide a
+                  positive user experience for visitors. As front-end web developers, we specialize in creating
+                  interactive and responsive websites using HTML, CSS, and JavaScript. Let us help you create a website
+                  that engages your audience and drives business results.
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="https://i.ibb.co/g3ThPWD/avatar-1.png" alt="Your photo" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title="John Doe">John Doe</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>I had a great experience working with Hamza as my web developer freelancer. He was professional,
+                    responsive, and delivered high-quality work. I highly recommend his skills.</p>
+                </div>
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="https://i.ibb.co/L9TRtJF/avatar-2.png" alt="Somebody's photo" width="60"
+                    data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title="Jane Smith">Jane Smith</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>I hired Hamza to work on my website and I was impressed by his expertise, attention to detail, and
+                    willingness to go above and beyond to ensure my satisfaction. He is a talented web developer and I
+                    highly recommend him.</p>
+                </div>
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="https://i.ibb.co/fxSM7Yd/avatar-3.png" alt="Your photo" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title="Sarah Lee">Sarah Lee</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>Hamza is a fantastic web developer freelancer who is knowledgeable, reliable, and easy to work
+                    with. He helped me with various web development tasks and exceeded my expectations every time. I
+                    highly recommend him to anyone looking for high-quality web development services.</p>
+                </div>
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="https://i.ibb.co/1bvGbDT/avatar-4.png" alt="Your photo" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title="Mike Johnson">Mike Johnson</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>Hamza is a highly skilled web developer freelancer who is dedicated, communicative, and delivers
+                    top-notch work. He helped me with my website redesign and I couldn't be happier with the results. I
+                    would highly recommend him.</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/icon-quote.svg"
+                alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>You</h4>
+
+              <time datetime="2024-08-22">22 Aug, 2024</time>
+
+              <div data-modal-text>
+                <p>
+                  If
+                  You
+                  Want
+                  to be, my client your name will be shown you
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="https://i.ibb.co/JvLjFj0/logo-1-color.png alt=" client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="https://i.ibb.co/NTMKs3q/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="https://i.ibb.co/6sX8MB5/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="https://i.ibb.co/Fg84R43/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="https://i.ibb.co/NFHtfsX/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="https://i.ibb.co/wWY0pdC/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Brilliant Career Secondary School</h4>
+
+              <span>May 2023 - May 2024</span>
+
+              <p class="timeline-text">
+                I am a 10th-grade student at Brilliant Career School, where I have received an exceptional education.
+                The school's dedicated staff have been instrumental in my academic success, providing me with the
+                guidance and resources I need to excel. I am excited to continue my educational journey at Brilliant
+                Career School and am confident that this institution will help me achieve my goals.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Meta Front-End Developer Professional Certificate</h4>
+
+              <span>Mar 1, 2023 — Aug 28, 2023</span>
+
+              <p class="timeline-text">
+                I recently earned the Meta Front-End Developer Professional Certificate, which represents my proficiency
+                in front-end web development. During the course, I learned the fundamentals of HTML, CSS, and
+                JavaScript, along with responsive design, web accessibility, and user experience design.
+                I faced various challenges, but through my persistence and hard work, I overcame them by using online
+                resources and seeking help from instructors and peers. This certificate will be a valuable addition to
+                my education section on my resume, showcasing my skills and expertise in front-end web development.
+              </p>
+            <li class="timeline-item">
+              <div class="button-container">
+                <a class="button" href="https://github.com/HamzaAhmed04/links/raw/main/Coursera%20ZTSMM65WDABK.pdf">
+                  <ion-icon name="certificate"></ion-icon>
+                  <span>Certificate</span>
+                </a>
+              </div>
+            </li>
+
+
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Work Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Front-End Developer</h4>
+
+              <span>2021 — Present</span>
+
+              <p class="timeline-text">
+                Develop and maintain responsive, dynamic web applications using HTML, CSS, JavaScript, and various
+                frameworks and libraries such as React, Angular, and Vue. Collaborate with designers and back-end
+                developers to ensure seamless integration of front-end and back-end functionality. Implement best
+                practices for accessibility, user experience, and performance optimization.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Developer Intern</h4>
+
+              <span>Summer 2022</span>
+
+              <p class="timeline-text">
+                Worked as a front-end web developer intern on a team responsible for creating and maintaining web
+                applications using HTML, CSS, JavaScript, and React. Collaborated with team members to identify and
+                resolve issues and implement new features. Gained experience with version control using Git and worked
+                with Agile methodologies.
+              </p>
+
+            </li>
+
+          </ol>
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="person-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Hire Me</h3>
+          </div>
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Lets Work Together</h4>
+              <p class="timeline-text">I am available for freelance work as a front-end web developer. If you have a
+                project you'd like to discuss or need help with, please don't hesitate to get in touch.</p>
+            <li class="timeline-item">
+              <div class="button-container">
+                <a class="button" href="https://www.upwork.com/freelancers/~0186f9f61656ec0de6">
+                  <ion-icon name="handshake"></ion-icon>
+                  <span>Click Here</span>
+                </a>
+              </div>
+            </li>
+          </ol>
+        </section>
+
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My Skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">CSS</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">React</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">UI/UX Design</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Bootstrap</h5>
+                <data value="65">65%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Vue.js</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">React</h5>
+                <data value="78">78%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 78%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Games</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web-based Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>games</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web-Based Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://hamzario.pk/scroll/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://i.ibb.co/PMD3T7G/Parallax-scroll-animation-1.png" alt="Scoll" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Parallax Scrolling</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://hamzario.pk/tab-bar/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://i.ibb.co/0tfbJMv/Animated-Tab-Bar.png" alt="navbar" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Bootstrap 5 Navbar</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="games">
+              <a href="https://hamzario.pk/Chess/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://i.ibb.co/NVbybCP/Hamza-Chess-Game.png" alt="Chess" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">AI Chess Game</h3>
+
+                <p class="project-category">games</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web-based applications">
+              <a href="https://hamzario.pk/calculator/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://i.ibb.co/LtQfCrz/Hamza-Ahmed-Calculator-1.png" alt="calculator" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Calculator</h3>
+
+                <p class="project-category">Web-Based Calculator</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="games">
+              <a href="https://hamzario.pk/Cube/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://i.ibb.co/vZ8NmLQ/Screenshot-20230430-034327.jpg" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Cube Game</h3>
+
+                <p class="project-category">games</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="games">
+              <a href="https://hamzario.pk/tower-blocks">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://i.ibb.co/4Vg8HbL/Screenshot-20230430-034425.jpg" alt="tower blocks" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Tower Blocks</h3>
+
+                <p class="project-category">games</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://hamzario.pk/login/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://i.ibb.co/Sy9g1tr/Log-In-Sign-Up.png" alt="login-signup form" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Login-Signup Form</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web-based applications">
+              <a href="https://hamzario.pk/music-player/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://i.ibb.co/stjrFrv/Music-Player-Hamza-Ahmed.png" alt="Music Player" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Music Player</h3>
+
+                <p class="project-category">Web-Based Music Player</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8110230.249632522!2d45.15631767975752!3d29.87297888870217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfc5d13e4f4d7d%3A0x7d9f0c4f8a2a24c5!2sPakistan!5e0!3m2!1sen!2sus!4v1647684117526!5m2!1sen!2sus"
+              width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
