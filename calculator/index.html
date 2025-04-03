@@ -1,1 +1,39 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hamza Ahmed Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator">
+    <div class="calculator-display">
+      <p id="result">0</p>
+    </div>
+    <div class="calculator-keys">
+      <button class="clear button" onclick="clearDisplay()">AC</button>
+      <button class="backspace button" onclick="backspace()">C</button>
+      <button class="operator button" onclick="insert('/')">÷</button>
+      <button class="number button" onclick="insert('7')">7</button>
+      <button class="number button" onclick="insert('8')">8</button>
+      <button class="number button" onclick="insert('9')">9</button>
+      <button class="operator button" onclick="insert('*')">x</button>
+      <button class="number button" onclick="insert('4')">4</button>
+      <button class="number button" onclick="insert('5')">5</button>
+      <button class="number button" onclick="insert('6')">6</button>
+      <button class="operator button" onclick="insert('-')">-</button>
+      <button class="number button" onclick="insert('1')">1</button>
+      <button class="number button" onclick="insert('2')">2</button>
+      <button class="number button" onclick="insert('3')">3</button>
+      <button class="operator button" onclick="insert('+')">+</button>
+      <button class="number button zero" onclick="insert('0')">0</button>
+      <button class="number button" onclick="insert('.')">.</button>
+      <button class="equal button" onclick="calculate()">=</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+</html>
